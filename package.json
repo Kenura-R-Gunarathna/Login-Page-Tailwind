@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "concurrently \"postcss css/main.css -o src/dist/main.css --watch\"  \"live-server ./src\"",
+    "build": "postcss css/main.css -o src/dist/main.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "concurrently": "^8.2.2",
+    "live-server": "^1.2.2",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.1"
+  }
+}
