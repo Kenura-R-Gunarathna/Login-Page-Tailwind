@@ -16,10 +16,13 @@
               <div class="my-6">
                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email</label>
                 <input type="email" id="email" class="bg-gray-50 border border-gray-300 focus:outline-gray-800 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5" placeholder="someone@company.com" required />
+                <div class="text-xs text-red-600 text-left mt-1">Email error</div>
               </div>
               <div class="my-6">
                 <label for="password" class="block mb-2 text-sm font-medium text-gray-900">Password</label>
                 <input type="password" id="password" class="bg-gray-50 border border-gray-300 focus:outline-gray-800 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5" placeholder="Enter your password" required />
+                <div class="text-xs text-red-600 text-left mt-1">Password error</div>
+
                 <a href="#" class="mt-2 text-sm font-medium flex justify-end hover:text-gray-600">Forgot password?</a>
               </div>
               <div>
@@ -61,8 +64,11 @@
             </div>
           </div>
         </div>
-        <div class="m-6 hidden w-full max-h-[700px] rounded-2xl bg-gray-100 lg:flex justify-center items-center">
-          <img src="./images/auth.png" alt="login-image" class="w-fit min-w-fit" />
+        <div class="m-6 hidden w-full max-h-[700px] rounded-2xl bg-[#dfdfdf2e] lg:flex justify-center items-center">
+          <div>
+            <img src="./images/auth.png" alt="login-image" class="w-fit" />
+            <div class="text-gray-900 text-base text-center">Make your work easier and organized with <span class="text-gray-950 font-bold">Rentalize</span></div>
+          </div>
         </div>
       </div>
     </div>
